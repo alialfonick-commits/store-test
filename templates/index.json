@@ -2,51 +2,21 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Jackets made for every forecast",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Shop leather jackets, bombers, puffers, and everyday outerwear built for clean style and reliable comfort.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop jackets",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "New arrivals",
-            "button_link_2": "shopify://collections/all",
-            "button_style_secondary_2": true
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+      "blocks": {},
+      "block_order": [],
       "settings": {
-        "image": "shopify://shop_images/jacket-hero-black-leather.jpg",
-        "image_2": "shopify://shop_images/jacket-hero-winter-puffer.jpg",
-        "image_overlay_opacity": 30,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
+        "image": "shopify://shop_images/fathers-day-sale.webp",
+        "image_2": "",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
         "image_behavior": "none",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "category_tiles": {

@@ -35,6 +35,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/jacket-hero-black-leather.jpg",
+        "image_2": "shopify://shop_images/jacket-hero-winter-puffer.jpg",
         "image_overlay_opacity": 30,
         "image_height": "large",
         "desktop_content_position": "middle-left",
@@ -53,6 +55,7 @@
         "leather": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/category-leather-jacket.jpg",
             "title": "Leather jackets",
             "text": "<p>Sharp staples with structured cuts, clean hardware, and timeless attitude.</p>",
             "link_label": "Shop leather",
@@ -62,6 +65,7 @@
         "bombers": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/category-bomber-jacket.jpg",
             "title": "Bombers",
             "text": "<p>Lightweight layers with ribbed finishes, easy pockets, and daily comfort.</p>",
             "link_label": "Shop bombers",
@@ -71,6 +75,7 @@
         "puffers": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/category-puffer-jacket.jpg",
             "title": "Puffers",
             "text": "<p>Insulated warmth for colder days without sacrificing movement or shape.</p>",
             "link_label": "Shop puffers",
@@ -169,6 +174,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/jacket-fit-guide.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",

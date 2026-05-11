@@ -1,0 +1,14 @@
+.git/*
+.github/*
+.shopify/*
+node_modules/*
+.env
+.env.*
+!.env.example
+.gitignore
+.shopifyignore
+package.json
+package-lock.json
+README.md
+theme-*.zip
+*.log

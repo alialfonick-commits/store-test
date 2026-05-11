@@ -6,46 +6,107 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Jackets made for every forecast",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Shop leather jackets, bombers, puffers, and everyday outerwear built for clean style and reliable comfort.",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop jackets",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_1": false,
+            "button_label_2": "New arrivals",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 30,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
         "image_behavior": "none",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "category_tiles": {
+      "type": "multicolumn",
+      "blocks": {
+        "leather": {
+          "type": "column",
+          "settings": {
+            "title": "Leather jackets",
+            "text": "<p>Sharp staples with structured cuts, clean hardware, and timeless attitude.</p>",
+            "link_label": "Shop leather",
+            "link": "shopify://collections/all"
+          }
+        },
+        "bombers": {
+          "type": "column",
+          "settings": {
+            "title": "Bombers",
+            "text": "<p>Lightweight layers with ribbed finishes, easy pockets, and daily comfort.</p>",
+            "link_label": "Shop bombers",
+            "link": "shopify://collections/all"
+          }
+        },
+        "puffers": {
+          "type": "column",
+          "settings": {
+            "title": "Puffers",
+            "text": "<p>Insulated warmth for colder days without sacrificing movement or shape.</p>",
+            "link_label": "Shop puffers",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "leather",
+        "bombers",
+        "puffers"
+      ],
+      "settings": {
+        "title": "Choose your layer",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 28
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
+        "title": "Latest jacket drops",
+        "heading_size": "h1",
+        "description": "<p>Fresh outerwear picks selected for fit, finish, and all-week wear.</p>",
+        "show_description": true,
         "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
@@ -55,21 +116,184 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "fit_note": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "THE FIT GUIDE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "A better jacket starts with the right silhouette.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Go cropped for a sharper waistline, relaxed for heavier layering, or regular for a clean everyday profile. Use product pages to show fabric, lining, and fit notes as your catalog grows.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse all styles",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "value_props": {
+      "type": "multicolumn",
+      "blocks": {
+        "materials": {
+          "type": "column",
+          "settings": {
+            "title": "Built to last",
+            "text": "<p>Highlight leather quality, shell fabrics, stitching, linings, or hardware details.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "shipping": {
+          "type": "column",
+          "settings": {
+            "title": "Fast dispatch",
+            "text": "<p>Make shipping timelines clear so customers know when their jacket will arrive.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "returns": {
+          "type": "column",
+          "settings": {
+            "title": "Fit confidence",
+            "text": "<p>Promote exchanges, returns, and sizing support to reduce hesitation at checkout.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "materials",
+        "shipping",
+        "returns"
+      ],
+      "settings": {
+        "title": "Why shop with us",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 52
+      }
+    },
+    "closing_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "READY FOR YOUR NEXT LAYER",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find the jacket you will reach for first.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From clean everyday layers to statement leather pieces, build the homepage around the styles you want customers to discover first.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the collection",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 64
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "category_tiles",
+    "featured_collection",
+    "fit_note",
+    "value_props",
+    "closing_cta"
   ]
 }

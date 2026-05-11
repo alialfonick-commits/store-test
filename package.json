@@ -1,0 +1,20 @@
+{
+  "name": "store-test-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shopify theme workflow for local development, testing, and deployment.",
+  "scripts": {
+    "dev": "shopify theme dev",
+    "check": "shopify theme check",
+    "info": "shopify theme info",
+    "list": "shopify theme list",
+    "pull": "shopify theme pull",
+    "push": "shopify theme push",
+    "push:unpublished": "shopify theme push --unpublished",
+    "package": "shopify theme package",
+    "publish": "shopify theme publish"
+  },
+  "devDependencies": {
+    "@shopify/cli": "latest"
+  }
+}

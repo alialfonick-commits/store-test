@@ -2,21 +2,51 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {},
-      "block_order": [],
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebrate Fatherhood in Style",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Find the perfect jacket for Dad and save on standout outerwear for Father's Day.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop jackets",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "Use code FATHERSDAY15",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "image": "shopify://shop_images/fathers-day-sale.webp",
         "image_2": "",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
         "image_behavior": "none",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     }
   },
